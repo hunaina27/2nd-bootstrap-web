@@ -1,0 +1,27 @@
+body{
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+}
+
+/* header */
+#header{
+    background-color: #fff9f4;
+}
+
+/* navbar  */
+.navbr{
+box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;;
+}
+.custom-logo{
+    width: 15%;
+}
+h1, h2{
+    font-family: "Bebas Neue", sans-serif;
+    color: #363958;
+}
+.custom-highlight{
+     color: #ff8367;
+}
+img{
+    vertical-align: middle;
+}
