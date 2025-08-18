@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Templates</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    /* Custom minimal CSS */
+    .gradient-section {
+      background: linear-gradient(to left, #6a11cb, #2575fc);
+      color: white;
+      padding: 60px 0;
+    }
+    .testimonial-card img {
+      width: 80px;
+      height: 80px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 15px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container py-5">
+    <h2 class="text-center mb-4">Cards Templates</h2>
+
+    <!-- 3 columns in a row -->
+    <div class="row row-cols-1 row-cols-md-3 g-4 mb-5">
+      <div class="col">
+        <div class="card h-100 shadow">
+          <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card 1</h5>
+            <p class="card-text">This is a 3 column card layout.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 shadow">
+          <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card 2</h5>
+            <p class="card-text">Bootstrap responsive cards.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 shadow">
+          <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card 3</h5>
+            <p class="card-text">Fully responsive with row-cols.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 2 columns in a row -->
+    <div class="row row-cols-1 row-cols-md-2 g-4 mb-5">
+      <div class="col">
+        <div class="card shadow h-100">
+          <div class="card-body">
+            <h5 class="card-title">2 Column Card</h5>
+            <p class="card-text">Perfect for half-width content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow h-100">
+          <div class="card-body">
+            <h5 class="card-title">2 Column Card</h5>
+            <p class="card-text">Another half-width card.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 4 columns in a row -->
+    <div class="row row-cols-1 row-cols-md-4 g-4 mb-5">
+      <div class="col">
+        <div class="card shadow h-100">
+          <div class="card-body text-center">
+            <h5 class="card-title">Col 1</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow h-100">
+          <div class="card-body text-center">
+            <h5 class="card-title">Col 2</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow h-100">
+          <div class="card-body text-center">
+            <h5 class="card-title">Col 3</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow h-100">
+          <div class="card-body text-center">
+            <h5 class="card-title">Col 4</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h2 class="text-center mb-4">Customer Testimonials</h2>
+
+    <!-- Testimonial card style -->
+    <div class="row row-cols-1 row-cols-md-3 g-4 mb-5">
+      <div class="col">
+        <div class="card testimonial-card shadow text-center p-3">
+          <img src="https://via.placeholder.com/100" alt="User">
+          <p class="fst-italic">“This service is amazing, highly recommend!”</p>
+          <h6>- John Doe</h6>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card testimonial-card shadow text-center p-3">
+          <img src="https://via.placeholder.com/100" alt="User">
+          <p class="fst-italic">“Bootstrap layouts saved me so much time.”</p>
+          <h6>- Sarah Smith</h6>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card testimonial-card shadow text-center p-3">
+          <img src="https://via.placeholder.com/100" alt="User">
+          <p class="fst-italic">“Very clean and professional designs.”</p>
+          <h6>- Alex Brown</h6>
+        </div>
+      </div>
+    </div>
+
+    <!-- Carousel testimonial -->
+    <div id="testimonialCarousel" class="carousel slide mb-5" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active text-center">
+          <blockquote class="blockquote">
+            <p class="mb-4">“Fantastic support and modern design.”</p>
+            <footer class="blockquote-footer">Emily Johnson</footer>
+          </blockquote>
+        </div>
+        <div class="carousel-item text-center">
+          <blockquote class="blockquote">
+            <p class="mb-4">“Hackathon ready templates!”</p>
+            <footer class="blockquote-footer">Michael Lee</footer>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+
+    <!-- Gradient Background Section -->
+    <div class="gradient-section text-center">
+      <h2>Gradient Background Section</h2>
+      <p class="lead">This section uses linear-gradient background (right to left).</p>
+      <button class="btn btn-light">Call to Action</button>
+    </div>
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
